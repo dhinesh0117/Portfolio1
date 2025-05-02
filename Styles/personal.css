@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    }
+    .divnav{
+        background-color: rgb(48, 47, 47);
+        position: absolute;
+        top: 1px;
+        width: 1370px;
+        height: 80px;
+    }
+.head{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    color: white;
+}
+.nav{
+    display: flex;
+    padding-left: 600px;
+    font-size: 20px;
+    position: absolute;
+    top: -25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 55px;
+}
+.img1{
+    position: absolute;
+    animation: slideUp 2s ease-in-out forwards;
+    }
+    @keyframes slideUp {
+        from {
+        opacity: 0;
+        top: -500px;
+        }
+        to {
+            opacity: 1;
+            
+            top: 82px;
+            left: 830px;
+        }
+    }
+    .img2{
+        position: absolute;
+        animation: slideUp2 2s ease-in-out forwards;
+        }
+        @keyframes slideUp2 {
+            from {
+            opacity: 0;
+            top: -500px;
+            }
+            to {
+                opacity: 1;
+                top: 82px;
+                left: 1100px;
+            }
+        }
+        .img3{
+            position: absolute;
+            animation: slideDown 2s ease-in-out forwards;
+            }
+            @keyframes slideDown {
+                from {
+                opacity: 0;
+                top: 1000px;
+                }
+                to {
+                    opacity: 1;
+                    top: 350px;
+                    left: 830px;
+                }
+            }
+
+            .img4{
+                position: absolute;
+                animation: slideDown2 2s ease-in-out forwards;
+                }
+                @keyframes slideDown2 {
+                    from {
+                    opacity: 0;
+                    top: 1000px;
+                    }
+                    to {
+                        opacity: 1;
+                        top:350px ;
+                        left:1100px ;
+                    }
+                }
+.heading{
+    position: absolute;
+    color: white;
+    top: 100px;
+    left: 150px;
+    font-size: 50px;
+}    
+.line{
+    position: absolute;
+    color: white;
+    top: 160px;
+    left: 150px;
+}            
+.details{
+    position: absolute;
+    color: white;
+    top: 250px;
+    left: 150px;
+    font-size: 20px;
+}
